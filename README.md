@@ -1,0 +1,2 @@
+# roguepickingsproject
+Skillcrush homework
