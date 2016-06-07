@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float:left;
+}
+
+.third-width {
+    width: 400px;
+    float:left;
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 100px;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform:uppercase;
+    color:#77a466;
+    padding: 45px 0px 45px 0px;
+}
+
+header h1 span {
+    color: #000000;
+}
+
+nav {
+    float: right;
+    padding: 50px 40px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 10px;
+}
+
+/***** IMAGE BORDER *****/
+
+#img-beans {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+/***** ABOUT SECTION *****/
+
+#about .full-width {
+    padding: 30px 0;
+}
+
+#about h2 {
+    text-transform:uppercase;
+    color: #77a466;
+    font-size:18px;
+}
+
+#about p {
+    font-size:16px;
+    line-height: 25px;
+}
+
+/***** INFO SECTIONS *****/
+
+#menu-location-review .full-width {
+    border-top: 1px solid #bbb9ba;
+    border-bottom: 1px solid #bbb9ba;
+    border-left: none;
+    border-right: none;
+    overflow: auto;
+}
+
+.third-width h3 {
+    font-weight: 900;
+    text-transform:uppercase;
+    font-size: 12px;
+}
+
+
+.third-width ul {
+    font-family: 'PT Sans', sans-serif;    
+    color: #77a466;
+    list-style-type: none;
+    line-height: 40px;
+    padding: 0;
+    font-size: 16px; 
+}
+
+.third-width p {
+    font-size: 16px;  
+}
+
+#review-border {
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #bbb9ba;
+    border-right: 1px solid #bbb9ba;
+    width:398px;
+}
+
+#review-width {
+    width: 350px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+#contact {
+    font-family: 'PT Sans', sans-serif;  
+    line-height: 25px;
+}
+
+#contact-align {
+    width: 200px;
+    padding-left: 30px;
+    
+}
+
+
+
+/***** FOOTER *****/
+
+footer {
+    clear:both;
+    text-transform:uppercase;
+    font-size: 16px; 
+    width: 400px;
+    margin:auto;
+}
+
+footer h4 span {
+    color: #77a466;
+    font-family: 'Pacifico', cursive;
+    text-transform:none;
+    font-size: 15px;
+    font-weight:100;
+    font-style:italic;
+}
+
